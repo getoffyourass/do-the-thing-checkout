@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get off your ass checkout</title>
+  </head>
+  <body>
+    <div id="payment">
+      <h1>Schedule Payment</h1>
+      <h3>
+        NOTE: When scheduling payment, make sure it is the same day as your
+        deadline. Please title the note for the payment "GET-OFF-YOUR-ASS". Any
+        questions or concerns, contact us at getoffyourassnow1@gmail.com.
+      </h3>
+      <h3>Now get to work! Good luck! :)</h3>
+      <div id="button-container">
+        <button id="venmo" onclick="window.location.href='https://account.venmo.com/u/Getoffyourass'">Venmo</button>
+        <button
+          id="cashApp"
+          onclick="window.location.href='https://cash.app/$Getoffyourassnow'"
+        >
+          Cash App
+        </button>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      background-color: wheat;
+    }
+
+    #payment {
+      text-align: center;
+      padding-top: 130px;
+    }
+
+    #button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      width: 100%;
+      max-width: 300px;
+      padding: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #venmo {
+      background-color: blue;
+    }
+
+    #cashApp {
+      background-color: green;
+      margin-top: 20px;
+    }
+  </style>
+</html>
